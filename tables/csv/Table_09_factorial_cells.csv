@@ -1,0 +1,5 @@
+Cell,Initialization,Distance Penalty,Feasible,Static score,Normalized distance,Scoring calls
+W0P0,Cold (W0),0.0,60/60,0.1726,0.8805,198.8
+W0P1,Cold (W0),0.3,60/60,0.1941,0.7108,199.2
+W1P0,Preferred (W1),0.0,60/60,0.147,0.1238,186.9
+W1P1,Preferred (W1),0.3,60/60,0.1525,0.0518,168.8

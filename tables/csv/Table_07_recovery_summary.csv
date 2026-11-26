@@ -1,0 +1,4 @@
+Strategy,Feasible n,Static score,Recovery score,Changed sessions,Normalized distance,Time (s)
+R0,532,0.1764,0.3792,76.37,0.8523,22.71
+R1,430,0.1715,0.1293,3.84,0.0309,0.67
+R2,532,0.1744,0.14,8.67,0.0598,15.25

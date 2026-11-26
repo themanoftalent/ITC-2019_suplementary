@@ -1,0 +1,5 @@
+Contrast,Comparison,Common feasible,Distance difference
+Penalty with cold initialization,W0P1 - W0P0,60/60,-0.1697
+Preferred initialization without penalty,W1P0 - W0P0,60/60,-0.7567
+Penalty with preferred initialization,W1P1 - W1P0,60/60,-0.0721
+Preferred initialization with penalty,W1P1 - W0P1,60/60,-0.659

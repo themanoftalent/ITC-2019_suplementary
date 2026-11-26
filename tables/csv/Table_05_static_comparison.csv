@@ -1,0 +1,6 @@
+Method,Objective,Time (s),Evaluations,HCA wins (out of 20)
+Standard GA,0.197776,0.262,143.7,20/20
+CA-GA,0.181526,0.357,119.2,20/20
+DPR-GA,0.181638,2.072,174.7,20/20
+HCA without objective-aware mutation (M5),0.160906,1.412,178.2,15/20
+Full HCA-GA,0.1489,2.743,469.1,-

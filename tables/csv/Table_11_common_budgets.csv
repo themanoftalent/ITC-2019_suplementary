@@ -1,0 +1,31 @@
+Profile,Cap,Method,Feasible,Feasible Count,Total Runs,Static Score,Evaluations (Calls),Time (s)
+small,eval,Standard,5/5,5,5,0.2004,200.0,0.2
+small,eval,CA,5/5,5,5,0.1765,200.0,0.33
+small,eval,DPR,5/5,5,5,0.1835,200.0,1.708
+small,eval,HCA ablation,5/5,5,5,0.1557,200.0,1.012
+small,eval,HCA full,5/5,5,5,0.1708,200.0,0.683
+small,time,Standard,5/5,5,5,0.1786,393.8,0.263
+small,time,CA,5/5,5,5,0.1523,390.6,0.495
+small,time,DPR,5/5,5,5,0.1798,257.0,2.309
+small,time,HCA ablation,5/5,5,5,0.1429,420.4,1.692
+small,time,HCA full,5/5,5,5,0.1415,538.4,1.864
+medium,eval,Standard,5/5,5,5,0.2243,200.0,0.348
+medium,eval,CA,5/5,5,5,0.1958,200.0,0.585
+medium,eval,DPR,5/5,5,5,0.2082,200.0,3.176
+medium,eval,HCA ablation,5/5,5,5,0.18,200.0,2.299
+medium,eval,HCA full,5/5,5,5,0.2069,200.0,1.531
+medium,time,Standard,5/5,5,5,0.2134,403.6,0.544
+medium,time,CA,5/5,5,5,0.1816,373.8,0.939
+medium,time,DPR,5/5,5,5,0.2057,225.4,3.001
+medium,time,HCA ablation,5/5,5,5,0.17,341.8,3.002
+medium,time,HCA full,5/5,5,5,0.1725,503.0,2.96
+large,eval,Standard,0/5,0,5,,200.0,0.721
+large,eval,CA,5/5,5,5,0.2205,200.0,1.387
+large,eval,DPR,5/5,5,5,0.2217,200.0,5.843
+large,eval,HCA ablation,5/5,5,5,0.2125,200.0,3.838
+large,eval,HCA full,5/5,5,5,0.2165,200.0,9.317
+large,time,Standard,0/5,0,5,,407.6,1.121
+large,time,CA,5/5,5,5,0.2021,347.2,1.956
+large,time,DPR,5/5,5,5,0.2269,161.4,3.003
+large,time,HCA ablation,5/5,5,5,0.2117,200.4,3.003
+large,time,HCA full,2/5,2,5,0.2321,15.6,3.001

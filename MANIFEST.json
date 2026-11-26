@@ -1,0 +1,170 @@
+{
+  "manuscript_id": "algorithms-4665560",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3083,
+      "sha256": "fa12d1f1118505373791020bb94af250141f6fda6530d08211f23398e33d270d"
+    },
+    {
+      "path": "Supplementary_Materials_algorithms-4665560.docx",
+      "bytes": 1261929,
+      "sha256": "1f6f4bff2bb2be63461bcb5396830263095430755bdba37e899d1ed442cca3f9"
+    },
+    {
+      "path": "Supplementary_Materials_algorithms-4665560.pdf",
+      "bytes": 1656831,
+      "sha256": "380cea8fbe8f1ba890793a0e74c2437749baa7ecff0d985e87b1f3b684dad922"
+    },
+    {
+      "path": "experiment_config.json",
+      "bytes": 4096,
+      "sha256": "c938d560cd3a123baaff32444bbc55133698d7931e7eff8ac77a31ecdc03625b"
+    },
+    {
+      "path": "figures/Figure_1_recovery_feasibility.png",
+      "bytes": 51094,
+      "sha256": "44425cf2c6981ca0327730e7c887cbbdba91a699ee6281ff5bb01f714b2a0165"
+    },
+    {
+      "path": "figures/Figure_2_change_distance_by_disruption.png",
+      "bytes": 85161,
+      "sha256": "707f5ca09bc420fbe8f5aefcb51ba69ce3250f3da2b1757194587368ededdcd5"
+    },
+    {
+      "path": "figures/Figure_3_recovery_time_by_severity.png",
+      "bytes": 57072,
+      "sha256": "a165f511ef22d9d45f15d2a6ad99bebba1805abf9e52d89a72cdf48c49955762"
+    },
+    {
+      "path": "figures/Figure_S1_factorial_disentanglement.png",
+      "bytes": 262420,
+      "sha256": "5622cb2f2ef5ec0f2abdb7621d68fa742b76f9d264b3b8dbe686f902bd7062ba"
+    },
+    {
+      "path": "figures/Figure_S1_factorial_disentanglement.svg",
+      "bytes": 106545,
+      "sha256": "c74931dca1ca30bda23518fc3a5fcb3a21cbf72cf5b9b02f4d7207c633eedebc"
+    },
+    {
+      "path": "figures/Figure_S2_equal_budget_static_comparison.png",
+      "bytes": 217983,
+      "sha256": "7ce1477a728626d45e3a120e2be7fc3c3acc113773b9109afe82e97b27c7acce"
+    },
+    {
+      "path": "figures/Figure_S2_equal_budget_static_comparison.svg",
+      "bytes": 115308,
+      "sha256": "1c346e412ae491d1526700cf2ec2faa32d815297e536938b97d8cbd99ba96233"
+    },
+    {
+      "path": "figures/Figure_S3_milp_vs_r2_tradeoff.png",
+      "bytes": 233416,
+      "sha256": "add25bffee5bf37be7c8b08aae8b17eea5748cc828a90984bfd74b51d26bf0ff"
+    },
+    {
+      "path": "figures/Figure_S3_milp_vs_r2_tradeoff.svg",
+      "bytes": 101949,
+      "sha256": "b25635bac18e64d68462a7ab83475d1203b91a249f752d7ef5ab709e5e232784"
+    },
+    {
+      "path": "figures/Figure_S4_sensitivity_analysis.png",
+      "bytes": 267677,
+      "sha256": "a6cbdbc420d168a8bc978a77705f8301cc678488104a3e14dbfdc7a98e3a8d5d"
+    },
+    {
+      "path": "figures/Figure_S4_sensitivity_analysis.svg",
+      "bytes": 108790,
+      "sha256": "7742f38b5ebd4588645a3284de1e95abb0c529845617d9e4b5a8228fdac2410d"
+    },
+    {
+      "path": "figures/Graphical_Abstract_HCA_GA.png",
+      "bytes": 356219,
+      "sha256": "14654ac10093b727f907192c24d6874c229f6b8afc6dd559ce5b56155153e6e9"
+    },
+    {
+      "path": "figures/Graphical_Abstract_HCA_GA.svg",
+      "bytes": 154228,
+      "sha256": "6cbfeb18899cdb872e4f69051530d1ee7219621a346cc99e2e67aa6a9d868dce"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 12204,
+      "sha256": "04b0e79523b7de35b64583f74a7a28882f6aa48dd85cec2ff9f6200cb78547a2"
+    },
+    {
+      "path": "tables/Supplementary_Tables_algorithms-4665560.xlsx",
+      "bytes": 22979,
+      "sha256": "5eaf8571356a610b7f8cd69a7ebe49b2ed96770973f5d27f7363ffdb8a130762"
+    },
+    {
+      "path": "tables/csv/Table_01_hard_constraints.csv",
+      "bytes": 504,
+      "sha256": "fc0ee6f3aa3e3096698f7a74f4c8385c5cb29a52714d12d37d934006e964f0e3"
+    },
+    {
+      "path": "tables/csv/Table_02_recovery_strategies.csv",
+      "bytes": 285,
+      "sha256": "2ba0cc1d5f24d07792b63edbfb06883827d517f2dbd8f0ebfa7cba3a6509cc5f"
+    },
+    {
+      "path": "tables/csv/Table_03_synthetic_profiles.csv",
+      "bytes": 157,
+      "sha256": "9d883c8a87d552c744ea63ceddf13c2c929792486b66c0f1f14d550158ea957c"
+    },
+    {
+      "path": "tables/csv/Table_04_search_settings.csv",
+      "bytes": 407,
+      "sha256": "b5a19470f7f3f6bc92db77fadb3079ff99978a96260840617180719714d34d74"
+    },
+    {
+      "path": "tables/csv/Table_05_static_comparison.csv",
+      "bytes": 273,
+      "sha256": "34c784e01ab89af652679d5224c14827432f564367a1b728626d9867c62dda85"
+    },
+    {
+      "path": "tables/csv/Table_06_recovery_feasibility.csv",
+      "bytes": 244,
+      "sha256": "137f35dce52b9a36439b4f686d5b46d3dd19d97053b7fa507258df97687dc9f9"
+    },
+    {
+      "path": "tables/csv/Table_07_recovery_summary.csv",
+      "bytes": 213,
+      "sha256": "5045925fe329abeb8d35c58974ce4d0677c1dce372215397d7f82ebd2414099a"
+    },
+    {
+      "path": "tables/csv/Table_08_sensitivity_r2.csv",
+      "bytes": 389,
+      "sha256": "a71c116385c5f8fdabe5cbc7bd237045afa033f4cdc35cd81ffd491cb8c82bcd"
+    },
+    {
+      "path": "tables/csv/Table_09_factorial_cells.csv",
+      "bytes": 287,
+      "sha256": "56e60c50fb4b9798c700227da2ca055e61ca9543d92353489a7dfe4118ba9389"
+    },
+    {
+      "path": "tables/csv/Table_10_factorial_contrasts.csv",
+      "bytes": 314,
+      "sha256": "0217952f0207acfdaa4e2ced8d5d7c05e8459f79c8fcd2d77204294dbba2a0d1"
+    },
+    {
+      "path": "tables/csv/Table_11_common_budgets.csv",
+      "bytes": 1484,
+      "sha256": "fea1d287517671e0dc90a617e87cb5837577b7bf076e602630bc4b6cc2663e13"
+    },
+    {
+      "path": "tables/csv/Table_12_milp_comparison.csv",
+      "bytes": 252,
+      "sha256": "ca89395f4fd6680ec17f13c22359f9bd1cfe29b2c6cf9c0b39b5136bf6e7787b"
+    },
+    {
+      "path": "tables/csv/Table_13_category_costs.csv",
+      "bytes": 395,
+      "sha256": "11a65c0bb205aed2961db63421df4471d2bf440e8b46fb795ec8937550bac901"
+    },
+    {
+      "path": "tables/csv/Table_S1_reproducibility_manifest.csv",
+      "bytes": 1968,
+      "sha256": "e546d5a40352107db64c7cfcbfd96dc76d808fe228696f5c4173b5c6c645b676"
+    }
+  ]
+}

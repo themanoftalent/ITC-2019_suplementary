@@ -1,0 +1,18 @@
+Category,Item,Specification / Value
+Manuscript,Title,Resilient University Course Timetabling with a Hierarchical Constraint Aware Genetic Algorithm
+Manuscript,Manuscript ID,algorithms-4665560 (MDPI Algorithms)
+Manuscript,Authors,"Saman Tarighpeyma Aghbolagh, Yousef Farhang*, Mehmet Akif Cifci"
+Original Archive,Archive Identifier,icebm-resilient-timetabling-phase7
+Original Archive,Git Commit,6b59879e5ea6061abb403f9cf788d560da3ae911 (note: accompanied by working-tree modifications & untracked static files)
+Original Archive,"Primary Recovery Records (n=1,620) SHA-256",c8679b1ff0b420262428a0cda5e77a94bca113cab28ea640b265f4dd751c0f75
+Original Archive,Sensitivity Records (n=165) SHA-256,12c987b424d380f046148d1fb807e1994af08999c2b0a1eb367bcc22e48b443d
+Original Archive,Original Static Records (n=100) SHA-256,2f42c6d8ffc71d53d229fb2b4f9c7e9c57e72fd6e3855394c8105d55564434d3
+Seeds,Primary recovery & factorial seeds,1001-1020 (20 paired seeds)
+Seeds,Revision common-budget / MILP / category-cost seeds,1001-1005 (5 paired seeds)
+Seeds,Original static dataset / GA seeds,3001-3020 / 73001-73020 (20 paired seeds)
+Seeds,Original sensitivity seeds,2001-2005 (5 paired seeds)
+Statistics,Primary recovery bootstrap,"50,000 resamples, NumPy default_rng seed 20260906, 95% percentile CI, two-sided Wilcoxon (zero_method='wilcox', method='auto'), Holm adjustment"
+Statistics,Original static bootstrap,"20,000 resamples, comparison-specific seeds starting at 99173 (experiments/11_static_publication.py)"
+Environment,Original recovery & sensitivity host,"Windows 10, Intel Family 6 Model 78, 4 logical CPUs, ~15.89 GiB RAM; Python 3.14.3, NumPy 2.4.4, pandas 3.0.2, SciPy 1.17.1"
+Environment,Original static host,"Linux, 5 logical CPUs; Python 3.13.5, NumPy 2.3.5, pandas 2.2.3, SciPy 1.17.0"
+Environment,Revision experiments host,"Linux x86_64, 9 logical CPUs (4 workers for eval-limited, sequential for timing); Python 3.12.14, SciPy 1.17.0 (HiGHS MILP)"

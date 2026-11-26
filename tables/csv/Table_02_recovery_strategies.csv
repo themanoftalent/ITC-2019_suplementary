@@ -1,0 +1,4 @@
+Strategy,Starting point,Search objective,Movement
+R0,Fresh population,Static quality,Unrestricted by reference cost
+R1,Published timetable,Restricted greedy repair,Valid assignments retained
+R2,Published and repaired seeds,Quality and distance,Additional moves permitted at a cost

@@ -1,0 +1,109 @@
+{
+  "manuscript": {
+    "id": "algorithms-4665560",
+    "journal": "Algorithms (MDPI)",
+    "title": "Resilient University Course Timetabling with a Hierarchical Constraint Aware Genetic Algorithm",
+    "authors": [
+      {
+        "name": "Saman Tarighpeyma Aghbolagh",
+        "affiliation": "Istanbul Esenyurt University, Vocational School, Department of Computer Technologies, Istanbul, Türkiye",
+        "email": "samantarighpeymaaghbolagh@esenyurt.edu.tr"
+      },
+      {
+        "name": "Yousef Farhang",
+        "corresponding": true,
+        "affiliation": "Istanbul Esenyurt University, Faculty of Engineering and Architecture, Department of Computer Engineering, Istanbul, Türkiye",
+        "email": "youseffarhang@esenyurt.edu.tr"
+      },
+      {
+        "name": "Mehmet Akif Cifci",
+        "affiliation": "Duy Tan University (Da Nang, Vietnam); Bandırma Onyedi Eylul University (Bandırma, Turkey)",
+        "email": "meh.cifci@kvk.lt"
+      }
+    ]
+  },
+  "synthetic_profiles": {
+    "days_per_week": 5,
+    "slots_per_day": 9,
+    "total_atomic_slots": 45,
+    "profiles": {
+      "Small": {"courses": 30, "programs": 5, "instructors": 8, "rooms": 8, "labs": 2, "sessions_range": [33, 40]},
+      "Medium": {"courses": 60, "programs": 10, "instructors": 15, "rooms": 12, "labs": 3, "sessions_range": [70, 82]},
+      "Large": {"courses": 100, "programs": 15, "instructors": 25, "rooms": 17, "labs": 4, "sessions_range": [121, 144]}
+    }
+  },
+  "disruptions": {
+    "primary_families": ["instructor_unavailability", "room_unavailability", "new_session_insertion"],
+    "severity_target_fractions": {"low": 0.02, "medium": 0.075, "high": 0.15},
+    "default_category_costs": {"unchanged": 0.0, "room_only": 0.5, "within_day": 1.0, "across_day": 2.0},
+    "tested_category_cost_vectors": [
+      [0.25, 1.0, 2.0],
+      [0.5, 1.0, 2.0],
+      [1.0, 1.0, 2.0],
+      [0.5, 1.0, 1.0],
+      [0.5, 1.0, 4.0]
+    ]
+  },
+  "default_hca_ga_parameters": {
+    "population_size": 20,
+    "max_generations": 25,
+    "tournament_size": 3,
+    "crossover_probability": 0.8,
+    "mutation_probability": 0.2,
+    "elitism_rate": 0.1,
+    "stagnation_limit": 10,
+    "consecutive_load_threshold_slots": 3,
+    "static_weights": {"soft": 0.75, "resource": 0.25},
+    "recovery_weights": {"soft": 0.525, "resource": 0.175, "distance": 0.30},
+    "repair_only_seed_attempts": 10,
+    "resilient_seed_attempts": 5
+  },
+  "revision_experiment_controls": {
+    "factorial_2x2": {
+      "cells": ["W0P0", "W0P1", "W1P0", "W1P1"],
+      "profile": "Small",
+      "seeds": "1001-1020",
+      "events_per_cell": 60,
+      "total_outcomes": 240,
+      "repair_seed_insertion_enabled": false,
+      "reference_restoration_mutation_enabled": false,
+      "max_scoring_calls": 200,
+      "max_generations": 100,
+      "stagnation_limit": 20
+    },
+    "common_budget_static": {
+      "profiles": ["Small", "Medium", "Large"],
+      "seeds": "1001-1005",
+      "eval_cap": 200,
+      "time_cap_seconds": 3.0
+    },
+    "milp_baseline": {
+      "solver": "SciPy milp (HiGHS)",
+      "relative_mip_gap": 0.0,
+      "solver_time_limit_seconds": 5.0,
+      "r2_search_limit_seconds": 5.0,
+      "profile": "Small",
+      "seeds": "1001-1005",
+      "events": 15
+    }
+  },
+  "seeds": {
+    "primary_recovery": "1001-1020",
+    "original_static_datasets": "3001-3020",
+    "original_static_ga": "73001-73020",
+    "original_sensitivity": "2001-2005",
+    "primary_bootstrap_rng": 20260906,
+    "primary_bootstrap_resamples": 50000,
+    "static_bootstrap_start_seed": 99173,
+    "static_bootstrap_resamples": 20000
+  },
+  "verified_original_archive": {
+    "archive_name": "icebm-resilient-timetabling-phase7",
+    "git_commit": "6b59879e5ea6061abb403f9cf788d560da3ae911",
+    "sha256_digests": {
+      "primary_recovery_1620_records": "c8679b1ff0b420262428a0cda5e77a94bca113cab28ea640b265f4dd751c0f75",
+      "sensitivity_165_records": "12c987b424d380f046148d1fb807e1994af08999c2b0a1eb367bcc22e48b443d",
+      "static_100_records": "2f42c6d8ffc71d53d229fb2b4f9c7e9c57e72fd6e3855394c8105d55564434d3"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+Setting,Static score,Normalized distance,Time (s)
+Default,0.15859,0.03422,4.57
+Population 10,0.15883,0.0373,2.41
+Population 40,0.15684,0.03297,8.85
+Mutation 0.10,0.15875,0.03297,3.26
+Mutation 0.30,0.15827,0.03422,4.95
+Distance weight 0.15,0.15688,0.03844,4.31
+Distance weight 0.45,0.15829,0.03297,4.3
+Repair attempts 1,0.15859,0.03422,4.2
+Repair attempts 10,0.15859,0.03422,4.26

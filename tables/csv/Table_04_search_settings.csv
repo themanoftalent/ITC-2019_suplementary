@@ -1,0 +1,9 @@
+Parameter,Value
+Population / maximum generations,20 / 25
+Tournament size,3 for tournament-based variants
+Crossover / mutation probability,0.8 / 0.2
+Elitism / stagnation limit,0.1 / 10 generations
+Static soft / resource weights,0.75 / 0.25
+Recovery soft / resource / distance weights,0.525 / 0.175 / 0.30
+Repair-only / resilient seed attempts,10 / 5
+Primary / static / sensitivity seeds,20 / 20 / 5

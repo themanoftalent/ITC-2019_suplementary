@@ -1,0 +1,8 @@
+Rule,Requirement
+Complete assignment,Every required session occurs exactly once.
+Time block,Duration is contiguous within one day and uses open slots.
+Availability,Instructor and room are available throughout the session.
+Resource overlap,No instructor or room has overlapping sessions.
+Program overlap,Sessions sharing a program do not overlap.
+Capacity and type,The room has sufficient seats and the required type.
+Instructor days,The instance-specific maximum teaching-day limit is respected.
